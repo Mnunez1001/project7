@@ -1,0 +1,39 @@
+Extracted Words: [the, project, gutenberg, ebook, of, beth, s, wonder, winter, this, ebook, is, for, the, use, of, anyone, anywhere, in, the]
+Sorted words written to: target/classes/2sorted_words.txt
+Word frequencies written to: target/classes/2word_frequencies.txt
+
+Enter a word to search for its frequency (or type 'exit' to quit): the
+The word "the" appears 3808 times.
+
+Enter a word to search for its frequency (or type 'exit' to quit): to
+The word "to" appears 2610 times.
+
+Enter a word to search for its frequency (or type 'exit' to quit): and
+The word "and" appears 2553 times.
+
+Enter a word to search for its frequency (or type 'exit' to quit): a
+The word "a" appears 2004 times.
+
+Enter a word to search for its frequency (or type 'exit' to quit): of
+The word "of" appears 1871 times.
+
+Enter a word to search for its frequency (or type 'exit' to quit): her
+The word "her" appears 1559 times.
+
+Enter a word to search for its frequency (or type 'exit' to quit): she
+The word "she" appears 1314 times.
+
+Enter a word to search for its frequency (or type 'exit' to quit): s
+The word "s" appears 990 times.
+
+Enter a word to search for its frequency (or type 'exit' to quit): 1234
+The word "1234" is a number and has no frequency. Please try another word.
+
+Enter a word to search for its frequency (or type 'exit' to quit): alex
+The word "alex" is not present or doesn't have any frequencies. Please try another word.
+
+Enter a word to search for its frequency (or type 'exit' to quit): worse
+The word "worse" appears 5 times.
+
+Enter a word to search for its frequency (or type 'exit' to quit): exit
+Goodbye!
