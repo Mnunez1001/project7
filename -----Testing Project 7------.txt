@@ -1,0 +1,72 @@
+Extracted Words: [the, project, gutenberg, ebook, of, the, cycles, of, speculation, this, ebook, is, for, the, use, of, anyone, anywhere, in, the]
+Sorted words written to: target/classes/sorted_words.txt
+Word frequencies written to: target/classes/word_frequencies.txt
+
+Enter a word to search for its frequency (or type 'exit' to quit): the 
+The word "the" appears 2651 times.
+
+Enter a word to search for its frequency (or type 'exit' to quit): of
+The word "of" appears 1784 times.
+
+Enter a word to search for its frequency (or type 'exit' to quit): and
+The word "and" appears 1061 times.
+
+Enter a word to search for its frequency (or type 'exit' to quit): in
+The word "in" appears 1032 times.
+
+Enter a word to search for its frequency (or type 'exit' to quit): to
+The word "to" appears 947 times.
+
+Enter a word to search for its frequency (or type 'exit' to quit): a
+The word "a" appears 892 times.
+
+Enter a word to search for its frequency (or type 'exit' to quit): is
+The word "is" appears 706 times.
+
+Enter a word to search for its frequency (or type 'exit' to quit): that
+The word "that" appears 421 times.
+
+Enter a word to search for its frequency (or type 'exit' to quit): or
+The word "or" appears 371 times.
+
+Enter a word to search for its frequency (or type 'exit' to quit): as
+The word "as" appears 349 times.
+
+Enter a word to search for its frequency (or type 'exit' to quit): it
+The word "it" appears 341 times.
+
+Enter a word to search for its frequency (or type 'exit' to quit): be
+The word "be" appears 333 times.
+
+Enter a word to search for its frequency (or type 'exit' to quit): this
+The word "this" appears 333 times.
+
+Enter a word to search for its frequency (or type 'exit' to quit): for
+The word "for" appears 328 times.
+
+Enter a word to search for its frequency (or type 'exit' to quit): by
+The word "by" appears 309 times.
+
+Enter a word to search for its frequency (or type 'exit' to quit): 2025
+The word "2025" is a number and has no frequency. Please try another word.
+
+Enter a word to search for its frequency (or type 'exit' to quit): dragon
+The word "dragon" is not present or doesn't have any frequencies. Please try another word.
+
+Enter a word to search for its frequency (or type 'exit' to quit): alex
+The word "alex" is not present or doesn't have any frequencies. Please try another word.
+
+Enter a word to search for its frequency (or type 'exit' to quit): hydrogen
+The word "hydrogen" is not present or doesn't have any frequencies. Please try another word.
+
+Enter a word to search for its frequency (or type 'exit' to quit): math
+The word "math" is not present or doesn't have any frequencies. Please try another word.
+
+Enter a word to search for its frequency (or type 'exit' to quit): 1718
+The word "1718" is a number and has no frequency. Please try another word.
+
+Enter a word to search for its frequency (or type 'exit' to quit): prices
+The word "prices" appears 206 times.
+
+Enter a word to search for its frequency (or type 'exit' to quit): exit
+Goodbye!
