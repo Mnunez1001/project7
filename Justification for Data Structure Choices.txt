@@ -1,0 +1,16 @@
+Justification for Data Structure Choices
+
+ArrayList<String>
+
+An ArrayList<String> is ideal for storing the extracted words in order.
+It provides fast indexed access and efficient sorting operations.
+When sorting words alphabetically, Collections.sort(words) runs in O(n log n) time, which is optimal.
+
+HashMap<String, Integer>
+A HashMap<String, Integer> allows fast lookup, insertion, and updating of word counts.
+The key is the word, and the value is the number of occurrences.
+Using wordCounts.getOrDefault(word, 0) + 1 makes frequency counting efficient.
+
+ArrayList<WordCount>
+Once we have a frequency map, we convert it into a list of objects (ArrayList<WordCount>) to store both words and counts.
+Sorting by frequency requires comparing values, which is easier when encapsulated in a class that implements Comparable<WordCount>.
