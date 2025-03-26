@@ -40,7 +40,7 @@ public class FileProcessor {
                     // Exclude words that are only numbers
                     if (!word.matches("\\d+")) {
                         words.add(word);
-                        //
+                        // Increment word count in map. If word doesn't exist, default to 0.
                         wordFrequencies.put(word, wordFrequencies.getOrDefault(word, 0) + 1);
                     }
                 }
@@ -96,16 +96,22 @@ public class FileProcessor {
             System.out.print("\nEnter a word to search for its frequency (or type 'exit' to quit): ");
             String input = scanner.nextLine().trim().toLowerCase();
 
+            // Handle empty input or only spaces
+            if (input.isEmpty()) {
+                System.out.println("You did not enter a word. Please try again.");
+                continue;
+            }
+
             //// Exits if the user types "exit".
-            if (input.equals("exit")) {
+            if (input.equals("/exit")) {
                 System.out.println("Goodbye!");
                 break;
             }
 
             // Ensure input is a valid word (not a number)
-            if (input.matches("\\d+")) {
+            if (!input.matches("[a-zA-Z]+")) {
                 System.out.println(
-                        "The word \"" + input + "\" is a number and has no frequency. Please try another word.");
+                        "Invalid Input:  \"" + input + "\" is not a valid word. Please enter a valid word.");
                 continue;
             }
 
